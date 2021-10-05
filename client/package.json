@@ -2,6 +2,7 @@
   "name": "react-graphql",
   "version": "0.1.0",
   "private": true,
+  "author": "Weider Lima (weider86@gmail.com)",
   "dependencies": {
     "@apollo/client": "^3.4.15",
     "@testing-library/jest-dom": "^5.11.4",

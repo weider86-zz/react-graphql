@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import { CREATE_USER_MUTATION } from '../GraphQL/Mutations';
+import { CREATE_USER_MUTATION } from '../../GraphQl/Mutations';
 import { useMutation } from '@apollo/client';
 
-function Form() {
+const Create = () => {
   const [firstName, setFirstName] = useState('');
   const [lastName, setLastName] = useState('');
   const [email, setEmail] = useState('');
@@ -57,6 +57,6 @@ function Form() {
       <button onClick={addUser}> Create User</button>
     </div>
   );
-}
+};
 
-export default Form;
+export { Create };
